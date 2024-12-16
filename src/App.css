@@ -1,0 +1,43 @@
+html{
+  height: 100%;
+  width: 100%;
+  background-color: papayawhip;
+  display: grid;
+  place-items: center;
+}
+
+.main{
+  height: 50vh;
+  width: 40vh;
+  background-color: rgb(138, 234, 215);
+  
+  justify-content: center;
+  align-items: center;
+  display: grid;
+  place-items: center;
+ 
+  border-radius: 5%;
+}
+.text{
+  padding: 2%;
+}
+
+.email{
+  padding: 2%;
+  border-radius: 12%;
+  border: none;
+}
+.p{
+  padding: 2%;
+  border-radius: 12%;
+  border: none;
+}
+
+.sub{
+  padding: 10%;
+  border-radius: 10%;
+  
+}
+.error{
+  color: red;
+}
